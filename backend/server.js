@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // api endpoints
-app.use('/api/v1', userMessage);
+app.use('/api/v1', routes);
 
 app.get('/', (req, res) => {
   res.send('API Working');
