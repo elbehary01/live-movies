@@ -29,6 +29,13 @@ const Footer = () => {
             ))}
           </Box>
         </Stack>
+        <div>
+          <hr />
+          <p>
+            Copyright {new Date().getFullYear()}@ captain-koshariko.com - All
+            Right Reserved.
+          </p>
+        </div>
       </Paper>
     </Container>
   );
